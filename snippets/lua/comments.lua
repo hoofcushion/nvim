@@ -1,7 +1,13 @@
 ---@diagnostic disable: undefined-global unused-local
 return {
- s("banner",fmt([[
+	s(
+		"banner",
+		fmt(
+			[[
 --- ---
 --- {}
---- ---]],{i(1)})),
+--- ---]],
+			{ i(1) }
+		)
+	),
 }

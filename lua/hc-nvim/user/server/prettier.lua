@@ -1,5 +1,5 @@
 return {
- formatting={
-  extra_args={"--tab-width","1","--no-bracket-spacing"},
- },
+	formatting = {
+		extra_args = { "--tab-width", "1", "--no-bracket-spacing" },
+	},
 }
