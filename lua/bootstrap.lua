@@ -12,7 +12,6 @@ checkdir(datapath)
 local lazypath=vim.fs.joinpath(datapath,"lazy") --[[@as string]]
 checkdir(lazypath)
 local bootstrappath=vim.fs.joinpath(lazypath,"bootstrap.lua") --[[@as string]]
-checkdir(bootstrappath)
 if not checkpath(bootstrappath) then
  local output=vim.fn.system({
   "curl",
