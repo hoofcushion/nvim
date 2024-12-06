@@ -6,6 +6,10 @@ require("lazy").setup({
 	dev = {
 		path = vim.fs.joinpath(vim.fn.stdpath("config"), "dev"),
 	},
+	profiling = {
+		-- loader=true,
+		-- require=true,
+	},
 	performance = {
 		rtp = {
 			disabled_plugins = {
