@@ -1,3 +1,4 @@
+vim.loader.enable()
 require("bootstrap")
 require("lazy").setup({
 	spec = {
