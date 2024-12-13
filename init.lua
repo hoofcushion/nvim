@@ -2,10 +2,11 @@ vim.loader.enable()
 require("bootstrap")
 require("lazy").setup({
 	spec = {
-		{ "hoofcushion/hc-nvim", import = "hc-nvim.export" },
+		{ "hoofcushion/hc-nvim", dev = true, import = "hc-nvim.export" },
 	},
 	dev = {
 		path = vim.fs.joinpath(vim.fn.stdpath("config"), "dev"),
+		fallback = true,
 	},
 	profiling = {
 		-- loader=true,
